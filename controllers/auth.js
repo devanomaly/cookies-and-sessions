@@ -9,4 +9,6 @@ exports.getLogin = (req, res, next) => {
 exports.postLogin = (req, res, next) => {
     req.isLoggedIn = true;
     res.redirect('/');
+    // LEMBRE depois que essa resposta foi passada, a request MORREU!!!
+    // Daí vem a necessidade de cookies e etc (;
   };
