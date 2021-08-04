@@ -1,0 +1,26 @@
+{
+  "name": "cookies-and-sessions",
+  "version": "1.0.0",
+  "description": "Entendendo Cookies e Sessions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/devanomaly/cookiesandsessions.git"
+  },
+  "keywords": [
+    "cookies",
+    "sessions",
+    "mongodb",
+    "and",
+    "sessions"
+  ],
+  "author": "devanomaly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devanomaly/cookiesandsessions/issues"
+  },
+  "homepage": "https://github.com/devanomaly/cookiesandsessions#readme"
+}
