@@ -1,0 +1,5 @@
+Informação guardada no server, a respeito do user...
+Um cookie é associado a ela, com seu ID.
+As informações são guardadas na DataBase, hasheadas
+
+Ver https://www.npmjs.com/package/connect-mongodb-session 

@@ -1,0 +1,2 @@
+1) tracking users
+2) httpOnly ==> protege de XSS!!! (nao permite JS no browser brincar com o cookie)
