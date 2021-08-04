@@ -1,26 +1,27 @@
 {
   "name": "cookies-and-sessions",
   "version": "1.0.0",
-  "description": "Entendendo Cookies e Sessions",
-  "main": "index.js",
+  "description": "Entendendo Cookies e Sessions!",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/devanomaly/cookiesandsessions.git"
-  },
-  "keywords": [
-    "cookies",
-    "sessions",
-    "mongodb",
-    "and",
-    "sessions"
-  ],
   "author": "devanomaly",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/devanomaly/cookiesandsessions/issues"
+  "devDependencies": {
+    "nodemon": "^1.18.3"
   },
-  "homepage": "https://github.com/devanomaly/cookiesandsessions#readme"
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^10.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mongodb": "^3.1.6",
+    "mongoose": "^5.2.17",
+    "mysql2": "^1.6.1",
+    "sequelize": "^5.0.0-beta.11"
+  }
 }
