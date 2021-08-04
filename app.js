@@ -39,6 +39,7 @@ mongoose
     process.env.MONGO_URL
   )
   .then(result => {
+    console.log("\nConectado ao MongoDB!!\n")
     User.findOne().then(user => {
       if (!user) {
         const user = new User({
@@ -51,7 +52,7 @@ mongoose
         user.save();
       }
     });
-    app.listen(3000);
+    app.listen(8080);
   })
   .catch(err => {
     console.log(err);
